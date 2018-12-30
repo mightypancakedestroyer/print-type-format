@@ -1,0 +1,40 @@
+------------- # \t : One tab gap.-----------------------
+print ('One \t Two \t Three')
+>>> One   Two   Three
+-----
+print  ('One \t\t\t\t Two \t\t\t Three \t\t Four')
+>>>One 				  Two 			Three   Four  
+---------------- #\n : Go to next line.-------------------------
+              
+print ('Bobby\tBrown\nGoes\n\nDown')
+>>>Bobby	Brown
+Goes
+
+Down
+------------------- # TYPE : -----------------------------
+                  
+print (type(3))
+>>><class 'int'>
+print (type(3.14))
+>>> <class 'float'>
+print print (type('Alperbaba'))
+>>> <class 'str'>
+
+#!! Doesn't matter however a is given , out is always str.. !!!
+a=input()
+print (type(a))
+>>> str 
+---------------------#.sep-----------------------
+print (11,22,33,56)
+>>>11 22 33 56
+print (11,22,33,56,sep='/')
+>>> 11/22/33/56
+
+print ('Alper','Baba','Fully','Loaded')
+>>>Alper Baba Fully Loaded
+print ('Alper','Baba','Fully','Loaded',sep='\n')
+>>>Alper
+Baba
+Fully
+Loaded
+
